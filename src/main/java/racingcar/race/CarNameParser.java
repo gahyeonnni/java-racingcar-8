@@ -4,7 +4,7 @@ import racingcar.errorMessage.ErrorMessage;
 import java.util.regex.Pattern;
 
 public class CarNameParser {
-    private static final Pattern NAME_PATTERN = Pattern.compile("^([^,]{1,5})(,[^,]{1,5}){0,8}$");
+    private static final Pattern NAME_PATTERN = Pattern.compile("^([^,]{1,5})(,[^,]{1,5})*$");
 
     public String[] getCarName(String input) {
         validateNameList(input);
