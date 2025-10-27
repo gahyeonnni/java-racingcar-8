@@ -9,26 +9,27 @@
 racingcar
 ├── Application.java
 ├── controller
-│ ├── GameExecutor.java
-│ ├── RacingGame.java
-│ └── GameStartCommand.java
+│   ├── GameExecutor.java
+│   ├── RacingGame.java
+│   └── GameStartCommand.java
 │
 ├── race
-│ ├── Car.java
-│ ├── CarRace.java
-│ ├── CarNameParser.java
-│ ├── MovePolicy.java
-│ ├── RandomMovePolicy.java
-│ ├── InputValidator.java
-│ └── RaceResult.java
+│   ├── Car.java
+│   ├── CarRace.java
+│   ├── CarNameParser.java
+│   ├── MovePolicy.java
+│   ├── RandomMovePolicy.java
+│   ├── InputValidator.java
+│   └── RaceResult.java
 │
 ├── view
-│ ├── InputReader.java
-│ ├── OutputView.java
-│ └── GameMessage.java
+│   ├── InputReader.java
+│   ├── OutputView.java
+│   └── GameMessage.java
 │
 └── errorMessage
-└── ErrorMessage.java
+    └── ErrorMessage.java
+
 ```
 
   ### ✅ 기능 요구사항 체크리스트
